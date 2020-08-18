@@ -1,0 +1,13 @@
+server:
+  port: 8088  # 端口号
+  servlet:
+    context-path: '/springboot'  #项目访问路径
+
+spring:
+  datasource: # 数据源
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: scott
+    password: 123123
+  jackson:
+    date-format: 'yyyy-MM-dd' # 格式化json
